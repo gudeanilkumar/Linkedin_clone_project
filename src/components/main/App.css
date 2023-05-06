@@ -1,0 +1,15 @@
+.App {
+  background-color: #f3f2ef;
+  /* height: 100vh; */
+}
+
+.App_body {
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+  .App_body {
+    flex-direction: column;
+  }
+}
